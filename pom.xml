@@ -25,6 +25,7 @@
         <module>filter</module>
         <module>collection</module>
         <module>Proxy</module>
+        <module>ES</module>
     </modules>
 
     <dependencies>
