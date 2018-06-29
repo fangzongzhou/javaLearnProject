@@ -26,6 +26,7 @@
         <module>collection</module>
         <module>Proxy</module>
         <module>ES</module>
+        <module>util</module>
     </modules>
 
     <dependencies>
