@@ -1,23 +1,14 @@
 package com.fzz.pattern;
 
-public abstract class Product {
+public interface Product {
 
-    String name;
-    double price;
 
-    public String getName() {
-        return name;
-    }
+    String getName();
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    String tostring();
 
-    public double getPrice() {
-        return price;
-    }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
+    double getPrice();
+
+
 }
