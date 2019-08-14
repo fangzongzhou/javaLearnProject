@@ -1,11 +1,14 @@
 package com.fzz.es.API;
 
+import org.apache.http.client.methods.RequestBuilder;
 import org.elasticsearch.action.ActionListener;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.index.reindex.BulkByScrollResponse;
 import org.elasticsearch.index.reindex.DeleteByQueryAction;
+import org.elasticsearch.search.aggregations.AggregationBuilder;
+import org.elasticsearch.search.aggregations.AggregationBuilders;
 
 public class DeleteByQuery {
     public void deleteByQuery(TransportClient client) {
@@ -32,5 +35,8 @@ public class DeleteByQuery {
                         // Handle the exception
                     }
                 });
+
+
+
     }
 }

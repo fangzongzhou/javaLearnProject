@@ -13,7 +13,7 @@ public class Client {
     public TransportClient getClient() throws UnknownHostException {
         TransportClient client = new PreBuiltTransportClient(Settings.EMPTY)
 
-                .addTransportAddress(new TransportAddress(InetAddress.getByName("localhost"), 9300));
+                .addTransportAddress(new TransportAddress(InetAddress.getByName("10.253.212.58"), 9300));
 
 // on shutdown
         return client;

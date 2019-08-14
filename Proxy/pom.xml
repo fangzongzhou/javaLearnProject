@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>JavaLearn</groupId>
-    <artifactId>Proxy</artifactId>
+    <artifactId>Reflect</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
