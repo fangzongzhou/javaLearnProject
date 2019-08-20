@@ -30,6 +30,7 @@
         <module>spring-cloud-registryserver</module>
 		<module>rpc</module>
         <module>leeCode</module>
+        <module>grpc</module>
     </modules>
 
     <dependencies>
